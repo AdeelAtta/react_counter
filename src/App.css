@@ -1,0 +1,22 @@
+.count-box{
+  width: fit-content;
+  height: fit-content;
+  text-align: right;
+  font-size: 50px;
+  font-weight: 800;
+  position: absolute;
+  z-index: -10;
+  
+
+}
+
+.button{
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 100px;
+  z-index: 1000;
+  border: none;
+  cursor: grabbing;
+}
