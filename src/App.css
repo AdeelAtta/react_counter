@@ -13,10 +13,21 @@
 .button{
   width: fit-content;
   height: fit-content;
-  padding: 10px 40px;
-  border-radius: 10px;
-  font-size: 100px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-size: 50px;
   z-index: 1000;
   border: none;
-  cursor: grabbing;
+  cursor: pointer;
+  background:linear-gradient(45deg,orange,pink);
+
+  transition: padding 1s, border-radius 0.5s, font-size 1s;
 }
+
+.button:hover{
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 80px;
+  background:linear-gradient(225deg,orange,pink);
+}
+
